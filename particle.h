@@ -13,5 +13,8 @@ public:
 	Vector3 position;
 	Vector3 acceleration;
 
+	float mass;
+	float damping;
+
 	void Integrate(float dt);
 };
